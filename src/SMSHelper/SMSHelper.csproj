@@ -14,7 +14,7 @@
     <NeutralLanguage>en</NeutralLanguage>
     <Owners>Behrooz Bozorg chami</Owners>
     <Summary>Tools for working with Persian And Convert to UCS</Summary>
-    <PackageTags>Number,Random,Tools</PackageTags>
+    <PackageTags>SMS,UCS,Perisan,فارسی</PackageTags>
     <Title>SMSHelper</Title>
     <Description>Tools for working with Persian And Convert to UCS</Description>
   </PropertyGroup>
