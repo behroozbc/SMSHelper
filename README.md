@@ -1,11 +1,10 @@
 # SMSHelper
 
 این لایبری برای این هستش که شما بتوانید به هر زبانی پیامک بزنید. 
-مصرف این کتابخانه دربیشتر در اینترنت اشیا می باشد
-
+مصرف این کتابخانه دربیشتر در اینترنت اشیا می باشد.
 ## نصب
 
-Use the package manager [nuget](https://www.nuget.org/) to install SMSHelper.
+Use the package manager [nuget](https://www.nuget.org/) to install [SMSHelper](https://www.nuget.org/packages/Behroozbc.SMSHelper).
 
 ```bash
 dotnet add package Behroozbc.SMSHelper
