@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SMSHelper
 {
-    public class SMSHelper
+    public class SmsEngine
     {
         //================> Used to encoding GSM message as UCS2
         public static string UnicodeStr2HexStr(string strMessage)
