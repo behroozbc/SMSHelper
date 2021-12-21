@@ -40,5 +40,15 @@ namespace SMSHelper
             }
             return aBytes;
         }
+       
+        public static string FixSmsUncodeNotSupport(string message)
+        {
+           
+            return message.Replace('ä', '{')
+    .Replace('Ä', '[')
+    .Replace('Ñ', ']')
+    .Replace('ñ', '}')
+    .Replace('§', '_');
+        }
     }
 }
