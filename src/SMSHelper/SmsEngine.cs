@@ -41,7 +41,7 @@ namespace SMSHelper
             return aBytes;
         }
        
-        public static string FixSmsUncodeNotSupport(string message)
+        public static string FixUncodeNotSupport(string message)
         {
            
             return message.Replace('ä', '{')

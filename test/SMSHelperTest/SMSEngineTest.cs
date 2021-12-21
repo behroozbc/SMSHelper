@@ -26,7 +26,7 @@ namespace SMSHelperTest
         [Fact]
         public void RepleaceUnsuppottedUniCode()
         {
-            var result = SmsEngine.FixSmsUncodeNotSupport(_illMeesage);
+            var result = SmsEngine.FixUncodeNotSupport(_illMeesage);
             Assert.Equal(result, _healtyMessage);
         }
 
